@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "eLingkod",
+    "slug": "elingkod",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.student.elingkod"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow eLingkod to show your location on the demonstration map."
+        }
+      ]
+    ]
+  }
+}
