@@ -6,6 +6,12 @@
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "com.student.elingkod",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Allow eLingkod to show your current location on the map and estimate route travel times."
+      }
+    },
     "android": {
       "package": "com.student.elingkod"
     },
@@ -13,7 +19,7 @@
       [
         "expo-location",
         {
-          "locationWhenInUsePermission": "Allow eLingkod to show your location on the demonstration map."
+          "locationWhenInUsePermission": "Allow eLingkod to show your current location on the map and estimate route travel times."
         }
       ]
     ]
